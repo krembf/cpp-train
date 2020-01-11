@@ -2,11 +2,17 @@
 #include <cmath>
 #include <iostream>
 #include <string>
+#include "vector-train.hpp"
+#include "lambda-train.hpp"
+// auto-generated include (using cmake)
 #include "mainConfig.h"
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-  if (argc < 2) {
+  std::cout << "Hello World" << std::endl;
+
+  if (argc < 2)
+  {
     // report version
     std::string maj(cpp_train_VERSION_MAJOR);
     std::string min(cpp_train_VERSION_MINOR);
@@ -22,6 +28,14 @@ int main(int argc, char* argv[])
   const double outputValue = sqrt(inputValue);
   std::cout << "The square root of " << inputValue << " is " << outputValue
             << std::endl;
+
+  lambdatrain::Ex0_abssort_using_lambda();
+  lambdatrain::Ex1_using_various_capture_ways();
+  lambdatrain::Ex2();
+  lambdatrain::Ex3_higher_order_lambda();
+
+  std::cout << "Press any key to exit ...";
+  std::getchar();
 
   return 0;
 }

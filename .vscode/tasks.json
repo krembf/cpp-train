@@ -11,6 +11,27 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"label": "build windows",
+			"type": "shell",
+			"command": "g++",
+			"args": [
+				"-g",
+				"-o",
+				"cpp-train",
+				"src/main.cxx",
+				"src/mainConfig.h",
+				"src/lambda-train.hpp",
+				"src/vector-train.hpp"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$eslint-compact"
+			]
 		}
 	]
 }
