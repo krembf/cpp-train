@@ -4,7 +4,10 @@
 #include <string>
 #include "vector-train.hpp"
 #include "lambda-train.hpp"
-// auto-generated include (using cmake)
+#include "inheritance-train.hpp"
+#include "template-train.hpp"
+
+//! auto-generated include (using cmake)
 #include "mainConfig.h"
 
 int main(int argc, char *argv[])
@@ -33,6 +36,10 @@ int main(int argc, char *argv[])
   lambdatrain::Ex1_using_various_capture_ways();
   lambdatrain::Ex2();
   lambdatrain::Ex3_higher_order_lambda();
+
+  inheritancetrain::Ex0_VirtualFunctions();
+
+  templatetrain::Ex0_TemplateWithDefaultArguments();
 
   std::cout << "Press any key to exit ...";
   std::getchar();
