@@ -6,6 +6,8 @@
 #include "lambda-train.hpp"
 #include "inheritance-train.hpp"
 #include "template-train.hpp"
+#include "variadic-template-train.hpp"
+#include "tuple-train.hpp"
 
 //! auto-generated include (using cmake)
 #include "mainConfig.h"
@@ -40,6 +42,12 @@ int main(int argc, char *argv[])
   inheritancetrain::Ex0_VirtualFunctions();
 
   templatetrain::Ex0_TemplateWithDefaultArguments();
+  templatetrain::Ex1_TemplateWithNonTypeArguments();
+
+  variadictemplatetrain::Ex0_FuncWithVariousArgs();
+  variadictemplatetrain::Ex1_CreateClassesViaFactory();
+
+  tupletrain::Ex0_TupleWithTemplate();
 
   std::cout << "Press any key to exit ...";
   std::getchar();
