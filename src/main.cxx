@@ -8,6 +8,7 @@
 #include "template-train.hpp"
 #include "variadic-template-train.hpp"
 #include "tuple-train.hpp"
+#include "indicators-train.hpp"
 
 //! auto-generated include (using cmake)
 #include "mainConfig.h"
@@ -48,6 +49,9 @@ int main(int argc, char *argv[])
   variadictemplatetrain::Ex1_CreateClassesViaFactory();
 
   tupletrain::Ex0_TupleWithTemplate();
+
+  indicatorstrain::Ex0_0();
+  indicatorstrain::Ex1_0();
 
   std::cout << "Press any key to exit ...";
   std::getchar();
