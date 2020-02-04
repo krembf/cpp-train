@@ -41,7 +41,33 @@
 		"typeinfo": "cpp",
 		"*.in": "cpp",
 		"functional": "cpp",
-		"iterator": "cpp"
+		"iterator": "cpp",
+		"numeric": "cpp",
+		"chrono": "cpp",
+		"condition_variable": "cpp",
+		"cstring": "cpp",
+		"ctime": "cpp",
+		"ios": "cpp",
+		"list": "cpp",
+		"mutex": "cpp",
+		"queue": "cpp",
+		"ratio": "cpp",
+		"thread": "cpp",
+		"xfacet": "cpp",
+		"xhash": "cpp",
+		"xiosbase": "cpp",
+		"xlocale": "cpp",
+		"xlocinfo": "cpp",
+		"xlocnum": "cpp",
+		"xmemory": "cpp",
+		"xmemory0": "cpp",
+		"xstddef": "cpp",
+		"xstring": "cpp",
+		"xtr1common": "cpp",
+		"xutility": "cpp"
 	},
-	"C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools"
+	"C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+	"cmake.mingwSearchDirs": [
+		"C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin"
+	]
 }
